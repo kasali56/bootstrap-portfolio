@@ -1,0 +1,16 @@
+footer{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: 35%;
+  margin: auto;
+}
+
+.words {
+  font-size: 40px;
+  margin: auto;
+  text-align: center;
+} 
+  navbar{
+    margin: auto;
+  }

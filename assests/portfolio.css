@@ -1,0 +1,31 @@
+    #main-flex-container {
+      display:flex;
+      flex-wrap: wrap;
+      justify-content: space-around;
+      flex-direction: row;
+      text-align: center;
+    }
+    .work {
+      display:flex;
+      grid-row: auto;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      width:400px;
+    }
+   
+    .work > img {
+        margin: auto;
+      width: 100px;
+    }
+    /* this css is really just for demo purposes/colors/etc */
+    .row {
+        display: inline;
+    }
+    .row > div {
+        border: 3px solid white;
+    }
+
+    .row > div > * {
+        line-height: 75px;
+        margin: 0;
